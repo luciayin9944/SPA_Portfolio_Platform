@@ -2,18 +2,13 @@
 
 function Filter({ onCategoryFilter }) {
   return (
-    <div className="Filter">
-      <input type="text" 
-             name="search" 
-             placeholder="Search..."
-             value={search}
-      />
-
+    <div>
+      <h4>Filter by Tag</h4>
       <select name="filter" onChange={onCategoryFilter}>
-        <option value="All">Filter by tag</option>
-        <option value="Produce">Produce</option>
-        <option value="Dairy">Dairy</option>
-        <option value="Dessert">Dessert</option>
+        <option value="All">All</option>
+        <option value="Full Stack">Full Stack</option>
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
       </select>
     </div>
   );

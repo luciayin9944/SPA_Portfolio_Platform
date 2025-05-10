@@ -11,7 +11,7 @@ const ProjectForm = ({ onAddProject }) => {
         e.preventDefault();
         const newProject = {id:uuid(), title, author, category, description };
         onAddProject(newProject);
-
+        //reset
         setTitle('');
         setDescription('');
         setAuthor('');
@@ -28,7 +28,7 @@ const ProjectForm = ({ onAddProject }) => {
                 <option value="Backend">Backend</option>
                 <option value="Full Stack">Full Stack</option>
             </select>
-            <input placeholder="Description" value={description} onChange={(e) => setDescription(e.target.value)} />
+            <textarea placeholder="Description" value={description} onChange={(e) => setDescription(e.target.value)} rows={4} />
         </form>
     );
 }
