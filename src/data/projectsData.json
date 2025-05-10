@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "Responsive Portfolio Website",
+      "description": "A sleek, modern portfolio built with HTML, CSS, and JavaScript. Fully responsive and optimized for mobile.",
+      "category": "Frontend",
+      "author": "Alice Kim"
+    },
+    {
+      "id": 2,
+      "title": "REST API for E-commerce App",
+      "description": "Designed and developed a secure RESTful API using Node.js, Express, and MongoDB for a full-featured e-commerce platform.",
+      "category": "Backend",
+      "author": "Brian Chen"
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Blogging Platform",
+      "description": "A MERN stack blogging platform with user authentication, markdown support, and post management.",
+      "category": "Full Stack",
+      "author": "Carla Lopez"
+    },
+    {
+      "id": 4,
+      "title": "Admin Dashboard UI",
+      "description": "Interactive admin dashboard built using React, Chart.js, and Tailwind CSS. Includes dynamic charts and filters.",
+      "category": "Frontend",
+      "author": "Daniel Singh"
+    },
+    {
+      "id": 5,
+      "title": "Authentication Microservice",
+      "description": "JWT-based authentication microservice built in Go, featuring secure user login and token refresh logic.",
+      "category": "Backend",
+      "author": "Ella Zhang"
+    },
+    {
+      "id": 6,
+      "title": "Event Management App",
+      "description": "A full-stack app to create, manage, and RSVP to events. Uses React frontend and Firebase backend.",
+      "category": "Full Stack",
+      "author": "Frank Torres"
+    }
+  ]
