@@ -24,13 +24,20 @@ function App() {
 
 
   return (
-    <>
-      <h1>Project List</h1>
-      <ProjectForm onAddProject={onAddProject} />
-      <Filter onCategoryFilter={onCategoryFilter} />
-      {/* <ProjectList projects={projects}/> */}
-      <ProjectList projects={filteredProjects} />
-    </>
+    <div className="container">
+      <div className='main-layout'>
+        <div className="main-content">
+          <h1>Project List</h1>
+          <Filter onCategoryFilter={onCategoryFilter} />
+        {/* <ProjectList projects={projects}/> */}
+          <ProjectList projects={filteredProjects} />
+        </div>
+        {/* left side bar */}
+        <div className="form-section">
+          <ProjectForm onAddProject={onAddProject} />
+        </div>
+      </div>
+    </div>
   );
 }
 
