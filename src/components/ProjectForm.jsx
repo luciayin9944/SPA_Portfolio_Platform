@@ -24,12 +24,13 @@ const ProjectForm = ({ onAddProject }) => {
             <input placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} />
             <input placeholder="Author" value={author} onChange={(e) => setAuthor(e.target.value)} />
             <div>
-                {/* <lable>Tag:</lable> */}
+              <label>Tag:&nbsp;
                 <select value={category} onChange={(e) => setCategory(e.target.value)}>
                     <option value="Frontend">Frontend</option>
                     <option value="Backend">Backend</option>
                     <option value="Full Stack">Full Stack</option>
                 </select>
+              </label>
             </div>
             <textarea placeholder="Description" value={description} onChange={(e) => setDescription(e.target.value)} rows={10} />
         </form>

@@ -140,16 +140,26 @@ h1 {
   min-width: 300px;
 }
 
+.header {
+  background-color: #b3bcc80b;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
 .form-section {
   flex: 1;
-  background-color: #334155;
+  background-color: #3b414d;
   padding: 3rem;
   border-radius: 12px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   height: fit-content;
   position: sticky;
   top: 1rem;
-  color: #e2e8f0;
+  color: #c3c8cf;
   min-width: 260px;
 }
 
@@ -162,15 +172,24 @@ h1 {
 }
 
 .form-section input,
-.form-section textarea,
-.form-section select {
-  width: 100%;
+.form-section textarea {
+  width: 90%;
   padding: 0.6rem;
   margin-bottom: 1rem;
   border-radius: 6px;
   border: 1px solid #475569;
   background-color: #1e293b;
-  color: #f1f5f9;
+  color: #9c9a98;
+}
+
+.form-section select {
+  width: 80%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #475569;
+  background-color: #1e293b;
+  color: #9c9a98;
 }
 
 .form-section button {
@@ -211,20 +230,20 @@ h1 {
 .project-card h2 {
   margin: 0 0 12px;
   font-size: 1.8rem;
-  color: #c18cbc;
+  color: #d081c8;
 }
 
 .project-card .author {
   font-size: 0.95rem;
   color: #94a3b8;
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .project-card .category {
   font-size: 0.85rem;
   color: #7fa7d6;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .project-card p {
@@ -241,4 +260,14 @@ select {
   border: 1px solid #475569;
   padding: 0.4rem 0.6rem;
   border-radius: 6px;
+}
+
+.filter-container {
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.filter-label {
+  font-size: 1rem;
+  color: #cbd5e1;
 }

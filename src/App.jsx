@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import ProjectList from './components/ProjectList';
 import ProjectForm from './components/ProjectForm';
 import Filter from './components/Filter';
+import Header from './components/Header';
 import projectsData from './data/projectsData.json';
 import './App.css'
 
@@ -25,9 +26,10 @@ function App() {
 
   return (
     <div className="container">
+      <Header />
       <div className='main-layout'>
         <div className="main-content">
-          <h1>Project List</h1>
+          <h2>Project List</h2>
           <Filter onCategoryFilter={onCategoryFilter} />
         {/* <ProjectList projects={projects}/> */}
           <ProjectList projects={filteredProjects} />
